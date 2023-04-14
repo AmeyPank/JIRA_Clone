@@ -67,4 +67,12 @@ function addTask(taskName, priority, dueDate, status) {
                       `;
 
   }
+  // After successfully added ->
+
+  // document.getElementById("task-name").value = "";
+  // document.getElementById("priority").value = "";
+  // document.getElementById("due-date").value = "";
+  // document.getElementById("status").value = "";
+
+  document.getElementById("add-task-form").reset();
 }
